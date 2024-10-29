@@ -1,0 +1,20 @@
+{
+    "name": "vitek-dev/coding-standard",
+    "description": "vitek.dev codesniffer coding standard",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Vitek",
+            "email": "daniel@vitek.dev"
+        }
+    ],
+    "require-dev": {
+        "slevomat/coding-standard": "*"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
